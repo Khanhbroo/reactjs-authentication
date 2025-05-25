@@ -21,7 +21,7 @@ export const action = async ({ request }) => {
   console.log(authData);
 
   const response = await fetch("http://localhost:8080/" + mode, {
-    method: "POST",
+    method: request.method,
     headers: {
       "Content-Type": "application/json",
     },
