@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "title": "A new event",
+      "image": "https://i.pinimg.com/736x/28/8d/d4/288dd436b2c342d3453b32dfe6c1ead5.jpg",
+      "date": "2022-10-01",
+      "description": "Some awesome event!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
+    }
+  ],
+  "users": []
+}
