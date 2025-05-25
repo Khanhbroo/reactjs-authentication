@@ -18,8 +18,6 @@ export const action = async ({ request }) => {
   const data = await request.formData();
   const authData = Object.fromEntries(data.entries());
 
-  console.log(authData);
-
   const response = await fetch("http://localhost:8080/" + mode, {
     method: request.method,
     headers: {
